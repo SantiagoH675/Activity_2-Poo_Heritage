@@ -21,5 +21,12 @@
       <FileName>Square.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Poo_Heritage_Core.Rhombus">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAQAAAAAAEIAAkAEAAAAAA=</HashCode>
+      <FileName>Rhombus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

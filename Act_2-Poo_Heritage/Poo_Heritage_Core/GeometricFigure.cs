@@ -10,7 +10,7 @@ public abstract class GeometricFigure
 
     public override string ToString()
     {
-        return $"{Name} => Area: {GetArea()}" + $"Perimeter: {GetPerimeter()}";
+        return $"{Name, -15} => Area....: {GetArea(),15:N5}\t" + $"Perimeter: {GetPerimeter(),15:N5}";
 
     }
 
