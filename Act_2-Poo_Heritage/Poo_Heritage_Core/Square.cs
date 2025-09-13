@@ -24,7 +24,7 @@ public class Square : GeometricFigure
     {
         if (a <= 0)
         {
-            throw new Exception($"The radius {a} is less than or equal to zero, it is incorrect.");
+            throw new Exception($"The side {a} is less than or equal to zero, it is incorrect.");
         }
         return a;
     }

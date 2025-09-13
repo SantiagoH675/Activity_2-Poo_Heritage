@@ -33,7 +33,7 @@ public class Rhombus : Square
     {
         if (d1 <= 0)
         {
-            throw new Exception($"The side {d1} is less than or equal to zero, it is incorrect.");
+            throw new Exception($"The diagonal {d1} must be greater than to zero, it is incorrect.");
         }
         return d1;
     }
@@ -42,7 +42,7 @@ public class Rhombus : Square
     {
         if (d2 <= 0)
         {
-            throw new Exception($"The side {d2} is less than or equal to zero, it is incorrect.");
+            throw new Exception($"The diagonal {d2} must be greater than to zero, it is incorrect.");
         }
         return d2;
     }

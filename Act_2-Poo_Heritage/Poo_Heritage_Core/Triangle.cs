@@ -34,7 +34,7 @@ public class Triangle : Rectangle
     {
         if (c <= 0)
         {
-            throw new Exception($"The Height {c} must be greater than zero, it is incorrect.");
+            throw new Exception($"The side {c} is less than or equal to zero, it is incorrect.");
         }
         return c;
     }
