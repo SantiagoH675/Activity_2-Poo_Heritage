@@ -27,7 +27,7 @@ public class Kite : Rhombus
     {
         if (b <= 0)
         {
-            throw new Exception($"The radius {b} is less than or equal to zero, it is incorrect");
+            throw new Exception($"The side {b} is less than or equal to zero, it is incorrect.");
         }
         return b;
     }

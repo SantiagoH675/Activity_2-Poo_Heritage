@@ -25,7 +25,7 @@ public class Rectangle : Square
     {
         if (b <= 0)
         {
-            throw new Exception($"The radius {b} is less than or equal to zero, it is incorrect");
+            throw new Exception($"The radius {b} is less than or equal to zero, it is incorrect.");
         }
         return b;
     }

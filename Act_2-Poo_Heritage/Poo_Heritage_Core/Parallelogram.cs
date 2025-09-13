@@ -26,7 +26,7 @@ public class Parallelogram : Rectangle
     {
         if (h <= 0)
         {
-            throw new Exception($"The radius {h} is less than or equal to zero, it is incorrect");
+            throw new Exception($"The Height  {h} must be greater than zero, it is incorrect.");
         }
         return h;
     }

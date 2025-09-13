@@ -1,22 +1,23 @@
-﻿
-
-namespace Poo_Heritage_Core;
+﻿namespace Poo_Heritage_Core;
 
 public class Rhombus : Square
 {
     private double _d1;
     private double _d2;
+
     public double D1
     {
         get => _d1;
         set => _d1 = ValidateD1(value);
     }
+
     public double D2
     {
         get => _d2;
         set => _d2 = ValidateD2(value);
     }
-    public Rhombus(string name, double a, double d1, double d2) : base (name, a)
+
+    public Rhombus(string name, double a, double d1, double d2) : base(name, a)
     {
         A = a;
         Name = name;
@@ -32,18 +33,17 @@ public class Rhombus : Square
     {
         if (d1 <= 0)
         {
-            throw new Exception($"The radius {d1} is less than or equal to zero, it is incorrect");
+            throw new Exception($"The side {d1} is less than or equal to zero, it is incorrect.");
         }
         return d1;
     }
+
     private double ValidateD2(double d2)
     {
         if (d2 <= 0)
         {
-            throw new Exception($"The radius {d2} is less than or equal to zero, it is incorrect");
+            throw new Exception($"The side {d2} is less than or equal to zero, it is incorrect.");
         }
         return d2;
     }
-
-
 }
